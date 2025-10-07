@@ -208,3 +208,4 @@ __marimo__/
 
 # large files
 TIMESTEP-Workshops/advanced-python-workshop/kasen_kilonova_models_2017/*
+.virtual_documents/
