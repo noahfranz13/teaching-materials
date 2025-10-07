@@ -1,0 +1,3 @@
+[submodule "astro-education-nbs"]
+	path = astro-education-nbs
+	url = git@github.com:noahfranz13/astro-education-nbs.git
