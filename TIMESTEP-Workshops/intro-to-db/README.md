@@ -2,7 +2,7 @@
 This directory holds teaching materials for a TIMESTEP workshop on databases and SQL. This workshop was 1.5 hours long.
 
 ## Part 1: Mini-lecture
-The slides in intro-to-db.pdf show the mini-lecture with background material on databases and SQL. These will be good to refer back to as a "cheat-sheet".
+The slides in [intro-to-db.pdf](./intro-to-db.pdf) show the mini-lecture with background material on databases and SQL. These will be good to refer back to as a "cheat-sheet".
 
 ## Part 2: Activity
 
