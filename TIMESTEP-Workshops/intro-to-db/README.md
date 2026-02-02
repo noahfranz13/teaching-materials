@@ -30,7 +30,7 @@ WHERE dec > -20;
 ```
 SELECT *
 FROM observation
-WHERE telescope_name = 'Mayall'
+WHERE telescope_name = 'Mayall';
 ```
 
 And count by hand, or use the SQL aggregation command `COUNT()`
@@ -38,7 +38,7 @@ And count by hand, or use the SQL aggregation command `COUNT()`
 ```
 SELECT COUNT(*)
 FROM observation
-WHERE telescope_name = 'Mayall'
+WHERE telescope_name = 'Mayall';
 ```
 
 4. How many observations do we store from a telescope in the northern hemisphere?
