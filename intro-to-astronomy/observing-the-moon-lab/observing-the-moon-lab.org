@@ -1,0 +1,100 @@
+#+TITLE: Observing the Moon Lab
+#+AUTHOR:
+#+DATE: Due: XYZ
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{margin=1in}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{booktabs}
+
+#+LATEX_HEADER: \usepackage{titling}
+#+LATEX_HEADER: \pretitle{\vspace{-5em}\begin{center}\huge\bfseries}
+#+LATEX_HEADER: \posttitle{\end{center}\vspace{-4em}}
+#+LATEX_HEADER: \predate{\begin{center}\normalsize}
+#+LATEX_HEADER: \postdate{\end{center}\vspace{1em}}
+
+** Learning Goals
+1. Demonstrate an understanding of quantitative approximation and analysis.
+2. Infer physical properties of your surroundings derived from observations with quantitative measurements.
+3. Improve your skills with technical writing.
+
+** Overview of the Lab
+Since ancient times, numerous civilizations have marvelled at the Moon. In this lab, we ask you
+to do the same. We ask you to look at the moon every few days for a month and record some
+approximations of the position and shape of the moon. From this information, we then ask that
+you infer some information about the Moon.
+
+** Description of Expected Observations
+Observe the moon at dusk (can be done alongside your "Sunset Lab") for one month
+at intervals of every 2-4 days. This should result in a /minimum/ of 8 total observations,
+but ideally $\gtrsim10$ observations total.
+
+For each observation where you are able to see the Moon record in your lab notebook the following:
+  - Date and time of observation
+  - Measure the altitude of the moon. The altitude is the height, in degrees, a source resides above the horizon.
+    The altitude can be estimated by the fact that the moon subtends approximately 0.5 a degree
+    on the sky (so you should essentially record how many "moons" the moon is above the horizon and multiply by 2).
+    Also approximate the uncertainty on this measurement of the altitude.
+  - Measure the azimuth of the moon. You can do this with a compass (on your phone, or
+    a physical compass) by measuring the number of degrees East of North the Moon resides.
+    If you do not have access to a compass, you can assume that the Sun has set at exactly
+    West and use the fact that the moon subtends 0.5 a degree on the sky to estimate the azimuth.
+    (It is not true that the Sun sets exactly in the West, but it means your measurement will only be
+    off by some roughly constant systematic). Also approximate the uncertainty in your measurement
+    of the azimuth.
+  - Sketch the moon and label it with the phase.
+  - Make notes of the observing conditions (is it cloudy? Is the weather bad? etc.).
+
+Not being able to find the moon at dusk when you go looking for it is called a "non-detection".
+Non-detections are perfectly acceptable! Roughly half the nights you try to find the
+moon you will not see it in the sky at dusk (assuming perfect weather). For a non-detection of
+the moon record in your lab notebook the following:
+  - Date and time of observation
+  - Observing conditions (e.g., the weather)
+
+We /will not/ take points off if you do not have tools available (for example, if you use the
+size of the moon to estimate the altitude and azimuth) as long as your method of measurement is clearly
+stated in your lab notebook. Although, we do expect an appropriate estimation of the
+uncertainty on your measurement. For example, if you are using the size of the moon to
+estimate the altitude, you only know the true value within a few degrees. 
+
+** Final Product (that you will submit)
+1. Your lab notebook with all details that you have noted down (see above)
+2. Three plots (each should have a short 2-3 sentence caption). These plots can be made
+   in Excel or by hand.
+   1. Altitude vs. Date. Represent non-detections as a downward arrow at the horizon.
+   2. Azimuth vs. Date. Do not show non-detections.
+   3. Altitude vs. Azimuth. Do not show non-detections.
+3. A short  report answering the below questions. The report should be "formal writing",
+   written with paragraphs and complete sentences. Include citations whenever relevant (whichever
+   format you prefer: MLA, APA, etc.). The write-up should be 1-2 pages, but this
+   is not strict. Please just don't make us read too much!
+   1. Begin with some background information about measurements of the moon.
+      Historically, when are the first recorded observations of the moon? Who performed
+      them and what did they record? How do they compare to the observations you made?
+   2. What did you learn from your non-detections of the Moon? Why was it not observable
+      in each of the cases of a non-detection?
+   3. Look online for a calendar of moon phases. Using this calendar, which phases were you able
+      to observe? Which phases were you not able to observe? Explain why.
+   4. Infer the period of the orbit of the Moon around the Earth from your
+      observations. Show all work and/or explain your method in complete sentences.
+      Report your result in days. (Hint: You should use the altitude vs. azimuth
+      plot that you created.)
+
+** Rubric
+
+#+ATTR_LATEX: :booktabs nil :align |l|m{1in}|m{1in}|m{1in}|m{1in}|
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| *Topic*       | *8-10 Points*                                                                            | *5-7 Points*                                                                                 | *2-4 Points*                                               | *0-2 Points*                                     |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Observations  | Observations were performed every 2-4 days.                                              | Observations were performed every 4-7 days.                                                  | Observations were performed bi-weekly.                     | Only a few, or less, observations were recorded. |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Lab Notebook  | Notes are clear, detailed, well organized, and contain all of the information requested. | Notes contain all information requested but are disorganized.                                | Notes are disorganized and missing information.            | Notes are non-existent or very limited.          |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Plots/Figures | All three figures are included, are interpretable/clear, and the results are logical.    | All three figures are included but they are difficult to parse or the results are illogical. | Missing figures and/or the figures are impossible to read. | No figures are included.                         |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Write-up (Quality) | The report is well written, easy to understand, includes appropriate citations | The write-up is poorly written, hard to understand, or missing citations              |  The report is poorly written, hard to understand, /and/ missing citations | No report is included.                           |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Write-up (Content) | All questions are answered thoroughly and correctly                                      |  All questions are answered but are missing details or are partially incorrect. | Some questions are not answered and/or a large majority of the questions are answered incorrectly. | Answers to most of the questions are missing and/or no report included. | 
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
