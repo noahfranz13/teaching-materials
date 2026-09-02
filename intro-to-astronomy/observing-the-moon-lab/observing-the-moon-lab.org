@@ -15,10 +15,11 @@
 #+LATEX_HEADER: \postdate{\end{center}\vspace{1em}}
 
 ** Learning Goals
-1. Demonstrate an understanding of quantitative approximation and analysis.
-2. Infer physical properties of your surroundings derived from observations with quantitative measurements.
-3. Improve your skills with technical writing.
-
+1. Estimate a measurable physical quantity using a known reference scale, and justify the precision of that estimate.
+2. Infer the motion of a distant body from observations.
+3. Communicate observational results efectively and situate them within the historical record.
+4. Interpret the absence of a detection as evidence rather than as failure.
+    
 ** Overview of the Lab
 Since ancient times, numerous civilizations have marvelled at the Moon. In this lab, we ask you
 to do the same. We ask you to look at the moon every few days for a month and record some
@@ -70,25 +71,29 @@ estimate the altitude, you only know the true value within a few degrees.
    written with paragraphs and complete sentences. Include citations whenever relevant (whichever
    format you prefer: MLA, APA, etc.). The write-up should be 1-2 pages, but this
    is not strict. Please just don't make us read too much!
-   1. Begin with some background information about measurements of the moon.
+   1. /Introduction/Background/: Begin with some background information about measurements of the moon.
       Historically, when are the first recorded observations of the moon? Who performed
       them and what did they record? How do they compare to the observations you made?
-   2. What did you learn from your non-detections of the Moon? Why was it not observable
+   2. /Methods/: How did you make your measurements? How did you estimate the uncertainty on your
+      measurements? Explain and motivate your choices.
+   3. /Interpretation:/ What did you learn from your non-detections of the Moon? Why was it not observable
       in each of the cases of a non-detection?
-   3. Look online for a calendar of moon phases. Using this calendar, which phases were you able
+   4. /Interpretation:/ Look online for a calendar of moon phases. Using this calendar, which phases were you able
       to observe? Which phases were you not able to observe? Explain why.
-   4. Infer the period of the orbit of the Moon around the Earth from your
+   5. /Interpretation:/ Infer the period of the orbit of the Moon around the Earth from your
       observations. Show all work and/or explain your method in complete sentences.
       Report your result in days. (Hint: You should use the altitude vs. azimuth
       plot that you created.)
 
 ** Rubric
 
-#+ATTR_LATEX: :booktabs nil :align |l|m{1in}|m{1in}|m{1in}|m{1in}|
+#+ATTR_LATEX: :booktabs nil :align |m{1in}|m{1in}|m{1in}|m{1in}|m{1in}|
 |---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
-| *Topic*       | *8-10 Points*                                                                            | *5-7 Points*                                                                                 | *2-4 Points*                                               | *0-2 Points*                                     |
+| *Topic*       | *8-10 Points*                                                                            | *5-7 Points*                                                                                 | *2-4 Points*                                               | *0-1 Points*                                     |
 |---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
-| Observations  | Observations were performed every 2-4 days.                                              | Observations were performed every 4-7 days.                                                  | Observations were performed bi-weekly.                     | Only a few, or less, observations were recorded. |
+| Observations  | Observations were performed every 2-4 days (logged non-detections count as observations). | Observations were performed every 4-7 days.                                                  | Observations were performed bi-weekly.                     | Only a few, or less, observations were recorded. |
+|---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
+| Measurement & Uncertainty | Measurements and Uncertainties are approrpiate and well justified. | Measurements are appropriate. Uncertainties reported but are weakly motivated or are inappropriate for the measurement method used. | Measurements and/or uncertainties are reported inconsistently or without justification | Uncertainties and/or measurements are absent. |
 |---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
 | Lab Notebook  | Notes are clear, detailed, well organized, and contain all of the information requested. | Notes contain all information requested but are disorganized.                                | Notes are disorganized and missing information.            | Notes are non-existent or very limited.          |
 |---------------+------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+------------------------------------------------------------+--------------------------------------------------|
